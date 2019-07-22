@@ -1,1 +1,30 @@
-{"OaiPmhETL":{"parameters":[{"key":"hostUrl","value":"http://oglp-oaipmhserver.default.svc.cluster.local","type":"StringParameter"},{"key":"logoUrl","value":"https://avatars1.githubusercontent.com/u/11230953?s=200&v=4","type":"StringParameter"},{"key":"metadataPrefix","value":"oai_dc","type":"StringParameter"}]}}
+{
+    "Submission": {
+        "parameters": [
+            {
+                "key": "url",
+                "value": "http://elasticsearch-data.default.svc.cluster.local:9200/gerdi/metadata",
+                "type": "StringParameter"
+            }
+        ]
+    },
+    "OaiPmhETL": {
+        "parameters": [
+            {
+                "key": "hostUrl",
+                "type": "StringParameter",
+                "value": "http://oglp-oaipmh-server.default.svc.cluster.local"
+            },
+            {
+                "key": "logoUrl",
+                "type": "StringParameter",
+                "value": "https://avatars1.githubusercontent.com/u/11230953?s=200&v=4"
+            },
+            {
+                "key": "metadataPrefix",
+                "type": "StringParameter",
+                "value": "oai_dc"
+            }
+        ]
+    }
+}
